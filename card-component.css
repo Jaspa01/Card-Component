@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+.card {
+  width: 180px;
+  height: 320px;
+}
+
+#svg {
+  margin-bottom: 30px;
+}
+
+.cars {
+  padding: 40px 40px;
+  height: auto;
+}
+
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0 0 5px;
+}
+
+#sedans button {
+  color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#suvs button {
+  color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+  border-radius: 0 5px 5px 0;
+  background-color: hsl(179, 100%, 13%);
+}
+
+#luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  line-height: 20px;
+  margin-bottom: 50px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+
+button {
+  padding: 7px 17px;
+  border-radius: 15px;
+  border: none;
+  font-size: 10.5px;
+  background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .cars {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 789px) {
+
+  .card {
+    width: 160px;
+  }
+ .cars {
+    padding: 30px 30px;
+
+}
+
+@media screen and (max-width: 745px) {
+    .cars {
+        padding: 30px 15px;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    h1 {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:600px)  {
+    body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+    .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: auto;
+    color: #fff;    
+}
+}
+}
